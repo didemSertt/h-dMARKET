@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -231,18 +232,6 @@
     <Compile Include="ViewModels\WidgetViewModels.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\images\0c89cd6f-58b0-44f5-9ea7-466b3328267c.jpg" />
-    <Content Include="Content\images\161332f5-b204-4ab9-9bf7-be34a9155920.jpg" />
-    <Content Include="Content\images\2476c308-65a7-4052-9396-df58efa0e486.jpg" />
-    <Content Include="Content\images\4abf5a69-79b1-475f-a8b2-e0871ca9ab4d.jpg" />
-    <Content Include="Content\images\57573a32-e89d-415a-8b84-76fa1f85ea10.jpg" />
-    <Content Include="Content\images\65ddb8ac-37fe-4d3d-bbbb-c93f5c51a8a5.jpg" />
-    <Content Include="Content\images\67a6d511-783d-4ff4-9dc3-750ab46950ac.jpg" />
-    <Content Include="Content\images\78bcf457-8958-4f50-8f59-e111011131c9.jpg" />
-    <Content Include="Content\images\7d128808-e1a3-4c44-ac63-bf518d03ad94.jpg" />
-    <Content Include="Content\images\81146fda-e0b0-4e66-bfee-0ba9e2b0760f.jpg" />
-    <Content Include="Content\images\9ab45dd4-d9d5-412b-baa6-313d9611008b.jpg" />
-    <Content Include="Content\images\9f0a9af6-61db-4987-a849-11d7365c19ae.jpg" />
     <Content Include="Content\images\avatar-1.png" />
     <Content Include="Content\images\avatar.png" />
     <Content Include="Content\images\bg-countdown-1-962x506.jpg" />
@@ -280,12 +269,7 @@
     <Content Include="Content\images\blog\new-lastest-8-370x280.jpg" />
     <Content Include="Content\images\blog\new-lastest-9-370x280.jpg" />
     <Content Include="Content\images\blog\search_icon.png" />
-    <Content Include="Content\images\c3f81172-07e9-49e3-8763-54da1f1bb4e7.jpg" />
-    <Content Include="Content\images\ea54c401-20e5-41cb-9a70-752486e91f73.jpg" />
-    <Content Include="Content\images\eaa53e08-2d9b-49ab-ae5a-7d6f05f30859.jpg" />
-    <Content Include="Content\images\ed0ba150-0e96-44b4-beb6-63e0dc3a40be.jpg" />
-    <Content Include="Content\images\ef5c5fb0-7ab4-4a8c-a04c-9c650b586f31.jpg" />
-    <Content Include="Content\images\ef604fca-1039-44af-ab8c-a70e9235ab00.jpg" />
+    <Content Include="Content\images\ClothBazar.png" />
     <Content Include="Content\images\gallery\gallery-1-870x377.jpg" />
     <Content Include="Content\images\gallery\gallery-2-870x377.jpg" />
     <Content Include="Content\images\image-box\imgbox-1-1173x620.jpg" />
@@ -350,7 +334,6 @@
     <Content Include="Content\images\pattern\7.png" />
     <Content Include="Content\images\pattern\8.png" />
     <Content Include="Content\images\pattern\9.png" />
-    <Content Include="Content\images\share.jpg" />
     <Content Include="Content\images\shop\s-01.jpg" />
     <Content Include="Content\images\shop\s-02.jpg" />
     <Content Include="Content\images\shop\s-03.jpg" />
@@ -465,8 +448,6 @@
     <Content Include="Content\images\slider\slider-bg-7.jpg" />
     <Content Include="Content\images\slider\slider-bg-8.jpg" />
     <Content Include="Content\images\system\placeholder-image.png" />
-    <Content Include="Content\images\tester.jpg" />
-    <Content Include="Content\images\wordpress-version.png" />
     <Content Include="Content\javascript\main.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
